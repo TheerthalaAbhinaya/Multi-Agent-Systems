@@ -44,9 +44,10 @@ Each agent is given a specific goal, and tasks are coordinated using the Crew ar
 
 **1. Open the notebook**
 
-	•      Go to the GitHub repo(https://github.com/TheerthalaAbhinaya/Multi-Agent-Systems)
-	•	Click on the .ipynb file.
-	•	Click the “Open in Colab” button (or copy the GitHub file URL(https://github.com/TheerthalaAbhinaya/Multi-Agent-Systems/blob/main/multiagentjob.ipynb)and paste it into https://colab.research.google.com/ under “GitHub” tab).
+	• Go to the GitHub repo(https://github.com/TheerthalaAbhinaya/Multi-Agent-Systems)
+	• Click on the .ipynb file.
+	• Click the “Open in Colab” button (or copy the GitHub file URL(https://github.com/TheerthalaAbhinaya/Multi-Agent-Systems/blob/main/multiagentjob.ipynb)and paste it into https://colab.research.google.com/ under “GitHub” tab). or
+        • Download .ipynb file from Github repo and upload file in Google Colab.
  
 **2.	Install Required Packages**
 
