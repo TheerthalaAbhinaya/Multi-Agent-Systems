@@ -31,8 +31,8 @@ Each agent is given a specific goal, and tasks are coordinated using the Crew ar
 	
   **4.	Proofreader**
   
-	~	Task: Final check for grammar, tone, and structure in the resume and cover letter.
-	~	Tool Used: OpenAI LLM.
+	~ Task: Final check for grammar, tone, and structure in the resume and cover letter.
+	~ Tool Used: OpenAI LLM.
  
 ## TOOLS USED
 
@@ -52,14 +52,14 @@ Each agent is given a specific goal, and tasks are coordinated using the Crew ar
 
 - At the top of the notebook, run the following code in cell:
 
-~ !pip install crewai langchain openai
+**!pip install crewai langchain openai**
 
 **3.	Add Your OpenAI API Key:**
 
 - Create and run this cell before agent execution:
 
-~ import os
-os.environ["OPENAI_API_KEY"] = "your-api-key-here"
+**import os
+os.environ["OPENAI_API_KEY"] = "your-api-key-here"**
 
 - *Replace "your-api-key-here" with your valid OpenAI API key.*
 
