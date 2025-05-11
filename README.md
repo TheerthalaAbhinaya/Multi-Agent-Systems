@@ -52,14 +52,14 @@ Each agent is given a specific goal, and tasks are coordinated using the Crew ar
 
 - At the top of the notebook, run the following code in cell:
 
-**!pip install crewai langchain openai**
+**_!pip install crewai langchain openai_**
 
 **3.	Add Your OpenAI API Key:**
 
 - Create and run this cell before agent execution:
 
-**import os
-os.environ["OPENAI_API_KEY"] = "your-api-key-here"**
+**_import os
+os.environ["OPENAI_API_KEY"] = "your-api-key-here"_**
 
 - *Replace "your-api-key-here" with your valid OpenAI API key.*
 
@@ -71,10 +71,9 @@ os.environ["OPENAI_API_KEY"] = "your-api-key-here"**
  
 **4. Run the Script or Notebook**
 
-  • Use Runtime > Run all in Colab to execute the entire notebook.
-  • Otherwise, Run the notebook cells in order from top to bottom. 
-  • Each cell represents a step in the multi-agent system (agent creation, task assignment, execution, etc.).
-  • Follow the cell sequence to generate outputs.
-  • You will see outputs from each agent under their respective tasks.
+  a. Use Runtime -> Run all in Colab to execute the entire notebook. Otherwise, Run the notebook cells in order from top to bottom. 
+  b. Each cell represents a step in the multi-agent system (agent creation, task assignment, execution, etc.).
+  c. Follow the cell sequence to generate outputs.
+  d. You will see outputs from each agent under their respective tasks.
 
 
